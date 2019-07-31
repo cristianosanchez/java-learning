@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Each entry may contain a work, home, and mobile phone number -->
+<phone_book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="phone.xsd">
+	<person>
+		<name>Jane Doe</name>
+		<phone location="work">303-555-1212</phone>
+	</person>
+	<person>
+		<name>John Smith</name>
+		<phone location="home">301-555-1212</phone>
+	</person>
+	<person>
+		<name>Joe Jones</name>
+		<phone location="mobile">201-555-1212</phone>
+	</person>
+</phone_book>
